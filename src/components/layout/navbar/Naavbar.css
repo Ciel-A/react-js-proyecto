@@ -1,0 +1,15 @@
+.my-navbar {
+  font-family: "Arial", sans-serif; /* Cambia 'Arial' por la fuente que desees */
+}
+
+.my-navbar .nav-link {
+  margin-right: 10px; /* Cambia el valor según sea necesario */
+}
+.navbar-text {
+  color: red;
+}
+
+.cart-container {
+  position: absolute;
+  right: 80%;
+}

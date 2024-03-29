@@ -1,0 +1,5 @@
+.Contenedor {
+  background-color: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+}
