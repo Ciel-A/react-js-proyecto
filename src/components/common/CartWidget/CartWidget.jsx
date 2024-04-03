@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Badge from "@mui/material/Badge";
 
-const Cart = () => {
+const CartWidget = () => {
   const [cartItems, setCartItems] = useState(1);
 
   return (
@@ -14,4 +14,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default CartWidget;
