@@ -1,15 +1,13 @@
-.my-navbar {
-  font-family: "Arial", sans-serif; /* Cambia 'Arial' por la fuente que desees */
+/* Estilos para los enlaces del navbar */
+.navbar a {
+  color: #212529; /* Color de texto */
+  font-weight: bold; /* Negrita */
+  transition: color 0.3s ease; /* Transición suave */
+  text-decoration: none; /* Elimina el subrayado */
+  margin-right: 10px; /* Espacio entre los enlaces */
 }
 
-.my-navbar .nav-link {
-  margin-right: 10px; /* Cambia el valor según sea necesario */
-}
-.navbar-text {
-  color: red;
-}
-
-.cart-container {
-  position: absolute;
-  right: 80%;
+/* Estilos para los enlaces del navbar al pasar el ratón */
+.navbar a:hover {
+  color: #007bff; /* Color de texto al pasar el ratón */
 }

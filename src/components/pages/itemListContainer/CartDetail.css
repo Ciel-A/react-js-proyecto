@@ -1,0 +1,35 @@
+.Tarjetaa {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.Tarjetaa img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.Tarjetaa div {
+  flex: 1;
+}
+
+.Tarjetaa h1 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.Tarjetaa h2 {
+  font-size: 16px;
+  color: #007bff;
+  margin-bottom: 8px;
+}
+
+.Tarjetaa p {
+  font-size: 14px;
+  color: #555;
+}

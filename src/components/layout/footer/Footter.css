@@ -1,0 +1,31 @@
+/* Estilos para el contenedor del footer */
+.footer-container {
+  background-color: #f0f5ff; /* Color de fondo con tono azul delicado */
+  color: #333; /* Color de texto oscuro */
+  padding: 20px; /* Espaciado interno */
+}
+
+/* Estilos para la lista dentro del footer */
+.footer-container ul {
+  list-style: none; /* Quitar viñetas de la lista */
+  padding: 0; /* Eliminar el espacio interno */
+  display: flex; /* Mostrar elementos de la lista en línea */
+  justify-content: space-around; /* Distribuir elementos de forma equitativa */
+}
+
+/* Estilos para los elementos de la lista dentro del footer */
+.footer-container li {
+  flex: 1; /* Cada elemento ocupa el ancho del contenedor */
+  font-size: 14px; /* Tamaño de letra más pequeño */
+}
+
+/* Estilos para los enlaces dentro del footer */
+.footer-container li a {
+  color: #007bff; /* Color de texto azul */
+  text-decoration: none; /* Quitar subrayado de los enlaces */
+}
+
+/* Estilos para los enlaces dentro del footer al pasar el ratón */
+.footer-container li a:hover {
+  text-decoration: underline; /* Subrayar los enlaces al pasar el ratón */
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "categoria": "hardware",
+    "descripcion": "",
+    "titulo": "disco duro ",
+    "imagen": "https://dummyimage.com/200x100/0c1beb/ffffff",
+    "precio": "$10"
+  },
+  {
+    "id": 2,
+    "categoria": "pantalla",
+    "descripcion": "esta es una descripcion",
+    "titulo": "monitor led",
+    "imagen": "https://dummyimage.com/200x100/00ff04/ffffff",
+    "precio": "$15"
+  },
+  {
+    "id": 3,
+    "categoria": "gabinete",
+    "descripcion": "",
+    "titulo": "gabinete 1",
+    "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    "precio": "$20"
+  },
+  {
+    "id": 4,
+    "categoria": "hardware",
+    "descripcion": "",
+    "titulo": "Placa madre",
+    "imagen": "https://dummyimage.com/200x100/0c1beb/ffffff",
+    "precio": "$25"
+  },
+  {
+    "id": 5,
+    "categoria": "pantalla",
+    "descripcion": "",
+    "titulo": "monitor led 2",
+    "imagen": "https://dummyimage.com/200x100/00ff04/ffffff",
+    "precio": "$30"
+  },
+  {
+    "id": 6,
+    "categoria": "gabinete",
+    "descripcion": "",
+    "titulo": "gabinete 2",
+    "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    "precio": "$70"
+  },
+  {
+    "id": 7,
+    "categoria": "gabinete",
+    "descripcion": "",
+    "titulo": "gabinete 3",
+    "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    "precio": "$20"
+  },
+  {
+    "id": 8,
+    "categoria": "gabinete",
+    "descripcion": "",
+    "titulo": "gabinete 4",
+    "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    "precio": "$20"
+  }
+]

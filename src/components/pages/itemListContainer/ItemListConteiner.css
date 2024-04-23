@@ -2,4 +2,13 @@
   background-color: lightgray;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  gap: 20px; /* Espacio entre las tarjetas */
+  padding: 20px; /* Espaciado interno */
+}
+
+h2 {
+  font-size: 1.5rem; /* Tamaño de fuente del título */
+  margin-bottom: 20px; /* Margen inferior del título */
+  text-align: center; /* Alineación del texto al centro */
 }
