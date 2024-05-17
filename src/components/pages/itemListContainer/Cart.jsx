@@ -5,7 +5,6 @@ import ProductCard from "../../common/productCard/ProductCard";
 const Cart = ({ titulo, productos }) => {
   return (
     <div>
-      <h2>{titulo}</h2>
       <div className="Contenedor">
         {productos.map((producto, index) => (
           <ProductCard
@@ -13,7 +12,7 @@ const Cart = ({ titulo, productos }) => {
             id={producto.id}
             titulo={producto.titulo}
             imagen={producto.imagen}
-            precio={producto.precio}
+            precio={"$" + producto.precio}
           />
         ))}
       </div>

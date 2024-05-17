@@ -8,7 +8,7 @@ const ProductCard = ({ id, titulo, imagen, precio }) => {
         <h1>{titulo}</h1>
         <img src={imagen} alt="Imagen representativa" />
         <h2>{precio}</h2>
-        <button className="ver-mas">agregar</button>
+
         <button>
           <Link className="ver-mas" to={`/item/${id}`}>
             Ver detalle

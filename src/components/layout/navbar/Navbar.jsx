@@ -42,7 +42,7 @@ const Navbarr = ({ enviarCategoria }) => {
               </li>
             </Nav>
           </Navbar.Collapse>
-          <div style={{ position: "absolute", left: "90%" }}>
+          <div style={{ position: "absolute", left: "80%" }}>
             <Cart />
           </div>
         </Navbar>

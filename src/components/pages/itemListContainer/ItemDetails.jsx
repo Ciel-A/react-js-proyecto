@@ -1,14 +1,18 @@
 import { useEffect, useState } from "react";
-import { pedirItemPorId } from "../../hooks/useFetch";
+
 import CartDetail from "./CartDetail";
 import { useParams } from "react-router-dom";
+import { doc, getDoc } from "firebase/firestore";
+import { db } from "../../../firebase/config";
 
 const ItemDetails = ({}) => {
   const [item, setItem] = useState(null);
   const id = useParams().id;
   useEffect(() => {
-    pedirItemPorId(Number(id)).then((res) => {
-      setItem(res);
+    const docReft = doc(db, "productos", id);
+
+    getDoc(docReft).then((resp) => {
+      setItem({ ...resp.data(), id: resp.id });
     });
   }, [id]);
 
